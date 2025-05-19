@@ -5,7 +5,11 @@ requests
 beautifulsoup4
 biopython
 python-multipart
-# Jinja2 might be needed if serving HTML templates from FastAPI directly
 jinja2
 lxml
-openpyxl # For Excel file generation 
+openpyxl
+reportlab  # For PDF generation
+pdfkit     # Alternative PDF generator
+weasyprint # Another PDF option for more complex layouts
+python-jose[cryptography]  # For JWT tokens (collaboration features)
+apscheduler  # For scheduling email notifications
