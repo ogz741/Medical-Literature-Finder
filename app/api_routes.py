@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+import { Plus, Minus } from 'lucide-react';
 from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException, Query, Response, Body
 from pydantic import BaseModel, Field
 from typing import Dict, List, Any, Optional
@@ -13,6 +15,13 @@ from fastapi.responses import StreamingResponse
 import io
 import csv
 import openpyxl
+from reportlab.lib import colors
+from reportlab.lib.pagesizes import letter
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+import jwt
+from apscheduler.schedulers.background import BackgroundScheduler
+from fastapi.security import OAuth2PasswordBearer
 
 # Configure logging
 logger = logging.getLogger(__name__)
@@ -779,3 +788,153 @@ async def cite_article(pmid: str, db_manager: DatabaseManager = Depends(get_db_m
         media_type="application/x-bibtex", # Standard BibTeX MIME type
         headers={"Content-Disposition": f"attachment; filename={filename}"}
     ) 
+
+# Add new PDF generation endpoint
+@router.post("/download-pdf")
+async def download_pdf(articles: List[Dict[str, Any]]):
+    """Generate PDF from article list"""
+    buffer = io.BytesIO()
+    doc = SimpleDocTemplate(buffer, pagesize=letter)
+    styles = getSampleStyleSheet()
+    
+    # Create custom style for article titles
+    title_style = ParagraphStyle(
+        'CustomTitle',
+        parent=styles['Heading1'],
+        fontSize=14,
+        spaceAfter=20
+    )
+    
+    # Build PDF content
+    elements = []
+    
+    # Add header
+    elements.append(Paragraph("Medical Literature Search Results", styles['Title']))
+    elements.append(Spacer(1, 20))
+    
+    # Add articles
+    for article in articles:
+        # Article title
+        elements.append(Paragraph(article['title'], title_style))
+        
+        # Authors and journal
+        if article.get('authors'):
+            authors = ', '.join(article['authors'])
+            elements.append(Paragraph(f"Authors: {authors}", styles['Normal']))
+        elements.append(Paragraph(f"Journal: {article['journal']}", styles['Normal']))
+        
+        # Publication date and PMID
+        elements.append(Paragraph(
+            f"Published: {article['publication_date']} | PMID: {article['pubmed_id']}", 
+            styles['Normal']
+        ))
+        
+        # Abstract
+        if article.get('abstract'):
+            elements.append(Spacer(1, 10))
+            elements.append(Paragraph("Abstract:", styles['Heading3']))
+            elements.append(Paragraph(article['abstract'], styles['Normal']))
+        
+        elements.append(Spacer(1, 20))
+    
+    # Build PDF
+    doc.build(elements)
+    buffer.seek(0)
+    
+    return StreamingResponse(
+        buffer,
+        media_type="application/pdf",
+        headers={
+            "Content-Disposition": f"attachment; filename=articles_{datetime.now().strftime('%Y%m%d_%H%M%S')}.pdf"
+        }
+    )
+
+# Add dark mode preference endpoint
+@router.post("/preferences/dark-mode")
+async def set_dark_mode(enabled: bool, db_manager: DatabaseManager = Depends(get_db_manager)):
+    db_manager.save_preference("dark_mode", enabled)
+    return {"status": "success", "dark_mode": enabled}
+
+# Add search history endpoints
+@router.get("/search-history")
+async def get_search_history(db_manager: DatabaseManager = Depends(get_db_manager)):
+    history = db_manager.get_search_history()
+    return {"status": "success", "history": history}
+
+@router.post("/search-history/save")
+async def save_search(search_params: Dict[str, Any], db_manager: DatabaseManager = Depends(get_db_manager)):
+    search_id = db_manager.save_search(search_params)
+    return {"status": "success", "search_id": search_id}
+
+# Add article recommendations endpoint
+@router.get("/recommendations")
+async def get_recommendations(db_manager: DatabaseManager = Depends(get_db_manager)):
+    # Get user's search history and generate recommendations
+    history = db_manager.get_search_history()
+    mesh_terms = db_manager.get_all_mesh_terms()
+    
+    # Simple recommendation based on most used MeSH terms
+    recommended_articles = await search_pubmed_articles(
+        search_params={
+            "mesh_terms": [term["term"] for term in mesh_terms[:3]],
+            "max_results": 5
+        },
+        email=db_manager.get_config("entrez_email"),
+        api_key=db_manager.get_config("pubmed_api_key"),
+        db_manager=db_manager
+    )
+    
+    return {"status": "success", "recommendations": recommended_articles}
+
+# Add collaboration endpoints
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
+
+@router.post("/collections/share")
+async def share_collection(
+    collection_id: str,
+    shared_with_email: str,
+    db_manager: DatabaseManager = Depends(get_db_manager)
+):
+    # Share a collection with another user
+    db_manager.share_collection(collection_id, shared_with_email)
+    return {"status": "success", "message": "Collection shared successfully"}
+
+# Add email notification scheduler
+scheduler = BackgroundScheduler()
+scheduler.start()
+
+@router.post("/notifications/setup")
+async def setup_notifications(
+    search_params: Dict[str, Any],
+    email: str,
+    frequency: str,  # daily, weekly, monthly
+    db_manager: DatabaseManager = Depends(get_db_manager)
+):
+    # Save notification preferences
+    notification_id = db_manager.save_notification_preferences(search_params, email, frequency)
+    
+    # Schedule the notification job
+    scheduler.add_job(
+        send_notification_email,
+        trigger=frequency,
+        args=[search_params, email],
+        id=f"notification_{notification_id}"
+    )
+    
+    return {"status": "success", "notification_id": notification_id}
+
+# Add offline support endpoints
+@router.post("/offline/save")
+async def save_for_offline(
+    article_ids: List[str],
+    db_manager: DatabaseManager = Depends(get_db_manager)
+):
+    # Save articles for offline access
+    saved_articles = db_manager.save_articles_offline(article_ids)
+    return {"status": "success", "saved_articles": saved_articles}
+
+@router.get("/offline/articles")
+async def get_offline_articles(db_manager: DatabaseManager = Depends(get_db_manager)):
+    # Retrieve saved offline articles
+    articles = db_manager.get_offline_articles()
+    return {"status": "success", "articles": articles}
