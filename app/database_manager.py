@@ -13,11 +13,18 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 DEFAULT_MESH_TERMS = [
     "Education, Medical", "Education, Medical, Graduate", "Education, Medical, Undergraduate",
     "Education, Medical, Continuing", "Internship and Residency", "Clinical Competence",
-    "Curriculum", "Competency-Based Education", "Teaching",
+    "Curriculum", "Competency-Based Education", "Teaching", "Teaching Materials",
     "Educational Measurement", "Schools, Medical", "Simulation Training", "Patient Simulation",
     "Problem-Based Learning", "Teaching Materials", "Faculty, Medical", "Mentors",
     "Educational Technology", "Program Development", "Program Evaluation", "Certification",
-    "Attitude of Health Personnel", "Specialty Boards", "Fellowships and Scholarships"
+    "Attitude of Health Personnel", "Specialty Boards", "Fellowships and Scholarships",
+    "Medical Education", "Clinical Education", "Medical Training", "Healthcare Education",
+    "Professional Development", "Educational Standards", "Learning Objectives",
+    "Student Assessment", "Clinical Skills", "Medical Curriculum", "Educational Resources",
+    "Teaching Methods", "Learning Environment", "Educational Innovation",
+    "Professional Competence", "Educational Quality", "Training Programs",
+    "Educational Research", "Medical Pedagogy", "Clinical Teaching",
+    "Educational Assessment", "Medical Faculty", "Teaching Excellence"
 ]
 
 class DatabaseManager:
@@ -553,4 +560,4 @@ class DatabaseManager:
         Since we're starting fresh with JSON storage, this isn't implemented.
         """
         logging.warning("SQLite migration is not implemented. Starting fresh with JSON storage.")
-        return True 
+        return True
