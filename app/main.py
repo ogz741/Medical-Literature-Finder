@@ -19,6 +19,7 @@ logger = logging.getLogger(__name__)
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Startup: No initialization needed
+    logger.info("Application starting up...")
     
     # Yield control back to FastAPI
     yield
@@ -71,30 +72,46 @@ SERVER_URL = f"http://localhost:{SERVER_PORT}"
 def run_server():
     """Runs the Uvicorn server."""
     logger.info(f"Starting Uvicorn server on {SERVER_URL}")
-    uvicorn.run(app, host="localhost", port=SERVER_PORT, log_level="info")
+    # Changed host to '0.0.0.0' to allow connections from any address
+    uvicorn.run(app, host="0.0.0.0", port=SERVER_PORT, log_level="info")
+
+def wait_for_server():
+    """Wait for the server to start up."""
+    import time
+    import socket
+    
+    for _ in range(10):  # Try for 10 seconds
+        try:
+            with socket.create_connection(("localhost", SERVER_PORT), timeout=1):
+                logger.info("Server is ready!")
+                return True
+        except (ConnectionRefusedError, socket.timeout):
+            time.sleep(1)
+    return False
 
 if __name__ == "__main__":
     logger.info("Application starting...")
 
     # Start Uvicorn server in a separate thread
-    # Daemonizing the thread means it will exit when the main program exits
     server_thread = threading.Thread(target=run_server, daemon=True)
     server_thread.start()
     logger.info("FastAPI server thread started.")
 
+    # Wait for the server to be ready
+    if not wait_for_server():
+        logger.error("Server failed to start within timeout period")
+        exit(1)
+
     # Create and start the pywebview window
-    # This will block until the window is closed
     webview.create_window(
         "Medical Literature Finder",
         SERVER_URL,
-        width=1000, # Adjusted width
-        height=750, # Adjusted height
+        width=1000,
+        height=750,
         resizable=True,
-        # frameless=False, # Optional: for a frameless window
-        # easy_drag=True, # Optional: if frameless
-        confirm_close=True # Ask user for confirmation before closing
+        confirm_close=True
     )
     logger.info("Pywebview window created. Starting GUI...")
-    webview.start(debug=True) # debug=True can be helpful for development
+    webview.start(debug=True)
 
-    logger.info("Application_finished.") 
+    logger.info("Application finished.")
