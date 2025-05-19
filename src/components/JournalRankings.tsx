@@ -19,6 +19,18 @@ function JournalRankings() {
     }
   );
 
+  const specialties = [
+    "Allergy", "Andrology", "Anesthesiology", "Cardiology", "Dermatology",
+    "Emergency Medicine", "Endocrinology", "Gastroenterology", "Geriatrics",
+    "Gynecology", "Hematology", "Immunology", "Infectious Diseases",
+    "Internal Medicine", "Nephrology", "Neurology", "Neurosurgery",
+    "Obstetrics", "Oncology", "Ophthalmology", "Orthopedics",
+    "Otolaryngology", "Pathology", "Pediatrics", "Physical Medicine",
+    "Plastic Surgery", "Psychiatry", "Pulmonology", "Radiology",
+    "Rheumatology", "Sports Medicine", "Surgery", "Toxicology",
+    "Transplantation", "Urology", "Vascular Medicine"
+  ];
+
   return (
     <div className="bg-white shadow rounded-lg p-6">
       <div className="flex justify-between items-center mb-6">
@@ -28,11 +40,9 @@ function JournalRankings() {
           value={specialty}
           onChange={(e) => setSpecialty(e.target.value)}
         >
-          <option value="Ophthalmology">Ophthalmology</option>
-          <option value="Dermatology">Dermatology</option>
-          <option value="Cardiology">Cardiology</option>
-          <option value="Neurology">Neurology</option>
-          <option value="Pediatrics">Pediatrics</option>
+          {specialties.map(spec => (
+            <option key={spec} value={spec}>{spec}</option>
+          ))}
         </select>
       </div>
 
