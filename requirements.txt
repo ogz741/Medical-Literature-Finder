@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pywebview
+requests
+beautifulsoup4
+biopython
+python-multipart
+# Jinja2 might be needed if serving HTML templates from FastAPI directly
+jinja2
+lxml
+openpyxl # For Excel file generation 

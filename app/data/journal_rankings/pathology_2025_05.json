@@ -1,0 +1,307 @@
+{
+  "specialty": "Pathology",
+  "date": "2025-05",
+  "rankings": [
+    {
+      "rank": 1,
+      "journal_name": "Annual Review of Pathology-Mechanisms of Disease",
+      "title": "Annual Review of Pathology-Mechanisms of Disease",
+      "impact_factor": 28.4
+    },
+    {
+      "rank": 2,
+      "journal_name": "Endocrine Pathology",
+      "title": "Endocrine Pathology",
+      "impact_factor": 11.3
+    },
+    {
+      "rank": 3,
+      "journal_name": "Acta Neuropathologica",
+      "title": "Acta Neuropathologica",
+      "impact_factor": 9.3
+    },
+    {
+      "rank": 4,
+      "journal_name": "Seminars in Immunopathology",
+      "title": "Seminars in Immunopathology",
+      "impact_factor": 7.9
+    },
+    {
+      "rank": 5,
+      "journal_name": "Modern Pathology",
+      "title": "Modern Pathology",
+      "impact_factor": 7.1
+    },
+    {
+      "rank": 6,
+      "journal_name": "HLA",
+      "title": "HLA",
+      "impact_factor": 5.9
+    },
+    {
+      "rank": 7,
+      "journal_name": "Brain Pathology",
+      "title": "Brain Pathology",
+      "impact_factor": 5.8
+    },
+    {
+      "rank": 8,
+      "journal_name": "Journal of Pathology",
+      "title": "Journal of Pathology",
+      "impact_factor": 5.6
+    },
+    {
+      "rank": 9,
+      "journal_name": "Advances in Anatomic Pathology",
+      "title": "Advances in Anatomic Pathology",
+      "impact_factor": 5.1
+    },
+    {
+      "rank": 0,
+      "journal_name": "Laboratory Investigation",
+      "title": "Laboratory Investigation",
+      "impact_factor": 5.1
+    },
+    {
+      "rank": 11,
+      "journal_name": "Cellular Oncology",
+      "title": "Cellular Oncology",
+      "impact_factor": 4.9
+    },
+    {
+      "rank": 12,
+      "journal_name": "American Journal of Pathology",
+      "title": "American Journal of Pathology",
+      "impact_factor": 4.7
+    },
+    {
+      "rank": 13,
+      "journal_name": "American Journal of Surgical Pathology",
+      "title": "American Journal of Surgical Pathology",
+      "impact_factor": 4.5
+    },
+    {
+      "rank": 14,
+      "journal_name": "Neuropathology and Applied Neurobiology",
+      "title": "Neuropathology and Applied Neurobiology",
+      "impact_factor": 1.2
+    },
+    {
+      "rank": 0,
+      "journal_name": "Disease Models & Mechanisms",
+      "title": "Disease Models & Mechanisms",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 16,
+      "journal_name": "Histopathology",
+      "title": "Histopathology",
+      "impact_factor": 3.9
+    },
+    {
+      "rank": 0,
+      "journal_name": "Expert Review of Molecular Diagnostics",
+      "title": "Expert Review of Molecular Diagnostics",
+      "impact_factor": 3.9
+    },
+    {
+      "rank": 18,
+      "journal_name": "Archives of Pathology & Laboratory Medicine",
+      "title": "Archives of Pathology & Laboratory Medicine",
+      "impact_factor": 3.7
+    },
+    {
+      "rank": 19,
+      "journal_name": "Pathology",
+      "title": "Pathology",
+      "impact_factor": 3.6
+    },
+    {
+      "rank": 20,
+      "journal_name": "Pathobiology",
+      "title": "Pathobiology",
+      "impact_factor": 3.5
+    },
+    {
+      "rank": 21,
+      "journal_name": "Journal of Pathology Clinical Research",
+      "title": "Journal of Pathology Clinical Research",
+      "impact_factor": 3.4
+    },
+    {
+      "rank": 0,
+      "journal_name": "Journal of Molecular Diagnostics",
+      "title": "Journal of Molecular Diagnostics",
+      "impact_factor": 3.4
+    },
+    {
+      "rank": 0,
+      "journal_name": "Virchows Archiv",
+      "title": "Virchows Archiv",
+      "impact_factor": 3.4
+    },
+    {
+      "rank": 24,
+      "journal_name": "Journal of Neuropathology and Experimental Neurology",
+      "title": "Journal of Neuropathology and Experimental Neurology",
+      "impact_factor": 3.2
+    },
+    {
+      "rank": 25,
+      "journal_name": "Pathology Research and Practice",
+      "title": "Pathology Research and Practice",
+      "impact_factor": 2.9
+    },
+    {
+      "rank": 0,
+      "journal_name": "Seminars in Diagnostic Pathology",
+      "title": "Seminars in Diagnostic Pathology",
+      "impact_factor": 2.9
+    },
+    {
+      "rank": 27,
+      "journal_name": "Experimental and Molecular Pathology",
+      "title": "Experimental and Molecular Pathology",
+      "impact_factor": 2.8
+    },
+    {
+      "rank": 28,
+      "journal_name": "Brain Tumor Pathology",
+      "title": "Brain Tumor Pathology",
+      "impact_factor": 2.7
+    },
+    {
+      "rank": 0,
+      "journal_name": "Journal of Oral Pathology & Medicine",
+      "title": "Journal of Oral Pathology & Medicine",
+      "impact_factor": 2.7
+    },
+    {
+      "rank": 0,
+      "journal_name": "Human Pathology",
+      "title": "Human Pathology",
+      "impact_factor": 2.7
+    },
+    {
+      "rank": 31,
+      "journal_name": "Analytical Cellular Pathology",
+      "title": "Analytical Cellular Pathology",
+      "impact_factor": 2.6
+    },
+    {
+      "rank": 0,
+      "journal_name": "Cancer Cytopathology",
+      "title": "Cancer Cytopathology",
+      "impact_factor": 2.6
+    },
+    {
+      "rank": 33,
+      "journal_name": "Pathology International",
+      "title": "Pathology International",
+      "impact_factor": 2.5
+    },
+    {
+      "rank": 0,
+      "journal_name": "Journal of Clinical Pathology",
+      "title": "Journal of Clinical Pathology",
+      "impact_factor": 2.5
+    },
+    {
+      "rank": 0,
+      "journal_name": "Cytojournal",
+      "title": "Cytojournal",
+      "impact_factor": 2.5
+    },
+    {
+      "rank": 36,
+      "journal_name": "Diagnostic Pathology",
+      "title": "Diagnostic Pathology",
+      "impact_factor": 2.4
+    },
+    {
+      "rank": 37,
+      "journal_name": "Cytometry Part B-Clinical Cytometry",
+      "title": "Cytometry Part B-Clinical Cytometry",
+      "impact_factor": 2.3
+    },
+    {
+      "rank": 0,
+      "journal_name": "Pathology & Oncology Research",
+      "title": "Pathology & Oncology Research",
+      "impact_factor": 2.3
+    },
+    {
+      "rank": 0,
+      "journal_name": "Cardiovascular Pathology",
+      "title": "Cardiovascular Pathology",
+      "impact_factor": 2.3
+    },
+    {
+      "rank": 0,
+      "journal_name": "American Journal of Clinical Pathology",
+      "title": "American Journal of Clinical Pathology",
+      "impact_factor": 2.3
+    },
+    {
+      "rank": 0,
+      "journal_name": "Veterinary Pathology",
+      "title": "Veterinary Pathology",
+      "impact_factor": 2.3
+    },
+    {
+      "rank": 42,
+      "journal_name": "APMIS",
+      "title": "APMIS",
+      "impact_factor": 2.2
+    },
+    {
+      "rank": 43,
+      "journal_name": "Science & Justice",
+      "title": "Science & Justice",
+      "impact_factor": 1.9
+    },
+    {
+      "rank": 44,
+      "journal_name": "Alzheimer Disease & Associated Disorders",
+      "title": "Alzheimer Disease & Associated Disorders",
+      "impact_factor": 1.8
+    },
+    {
+      "rank": 0,
+      "journal_name": "International Journal of Experimental Pathology",
+      "title": "International Journal of Experimental Pathology",
+      "impact_factor": 1.8
+    },
+    {
+      "rank": 46,
+      "journal_name": "International Journal of Gynecological Pathology",
+      "title": "International Journal of Gynecological Pathology",
+      "impact_factor": 1.6
+    },
+    {
+      "rank": 0,
+      "journal_name": "Acta Cytologica",
+      "title": "Acta Cytologica",
+      "impact_factor": 1.6
+    },
+    {
+      "rank": 0,
+      "journal_name": "Journal of Cutaneous Pathology",
+      "title": "Journal of Cutaneous Pathology",
+      "impact_factor": 1.6
+    },
+    {
+      "rank": 49,
+      "journal_name": "Folia Neuropathologica",
+      "title": "Folia Neuropathologica",
+      "impact_factor": 1.5
+    },
+    {
+      "rank": 0,
+      "journal_name": "Annals of Diagnostic Pathology",
+      "title": "Annals of Diagnostic Pathology",
+      "impact_factor": 1.5
+    }
+  ],
+  "timestamp": "2025-05-18T15:52:45.521844"
+}

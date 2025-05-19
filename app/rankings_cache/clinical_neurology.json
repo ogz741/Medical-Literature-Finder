@@ -1,0 +1,306 @@
+{
+  "specialty": "Clinical Neurology",
+  "last_updated": "2025-05-18T12:00:37.792554",
+  "data": [
+    {
+      "rank": 1,
+      "journal_name": "Lancet Neurology",
+      "title": "Lancet Neurology",
+      "impact_factor": 79.3
+    },
+    {
+      "rank": 2,
+      "journal_name": "Nature Reviews Neurology",
+      "title": "Nature Reviews Neurology",
+      "impact_factor": 49.9
+    },
+    {
+      "rank": 3,
+      "journal_name": "Current Neurology and Neuroscience Reports",
+      "title": "Current Neurology and Neuroscience Reports",
+      "impact_factor": 47.7
+    },
+    {
+      "rank": 4,
+      "journal_name": "Journal of Headache and Pain",
+      "title": "Journal of Headache and Pain",
+      "impact_factor": 8.5
+    },
+    {
+      "rank": 5,
+      "journal_name": "International Journal of Stroke",
+      "title": "International Journal of Stroke",
+      "impact_factor": 7.0
+    },
+    {
+      "rank": 6,
+      "journal_name": "International Journal of Neuropsychopharmacology",
+      "title": "International Journal of Neuropsychopharmacology",
+      "impact_factor": 7.0
+    },
+    {
+      "rank": 7,
+      "journal_name": "Journal of Neurology",
+      "title": "Journal of Neurology",
+      "impact_factor": 6.0
+    },
+    {
+      "rank": 8,
+      "journal_name": "Journal of Psychopharmacology",
+      "title": "Journal of Psychopharmacology",
+      "impact_factor": 6.0
+    },
+    {
+      "rank": 9,
+      "journal_name": "European Journal of Neurology",
+      "title": "European Journal of Neurology",
+      "impact_factor": 5.5
+    },
+    {
+      "rank": 10,
+      "journal_name": "Spine Journal",
+      "title": "Spine Journal",
+      "impact_factor": 3.5
+    },
+    {
+      "rank": 11,
+      "journal_name": "JAMA Neurology",
+      "title": "JAMA Neurology",
+      "impact_factor": 1.5
+    },
+    {
+      "rank": 12,
+      "journal_name": "European Neuropsychopharmacology",
+      "title": "European Neuropsychopharmacology",
+      "impact_factor": 1.5
+    },
+    {
+      "rank": 13,
+      "journal_name": "European Stroke Journal",
+      "title": "European Stroke Journal",
+      "impact_factor": 1.5
+    },
+    {
+      "rank": 14,
+      "journal_name": "Sleep Medicine Reviews",
+      "title": "Sleep Medicine Reviews",
+      "impact_factor": 1.3
+    },
+    {
+      "rank": 15,
+      "journal_name": "Epilepsy Currents",
+      "title": "Epilepsy Currents",
+      "impact_factor": 1.3
+    },
+    {
+      "rank": 16,
+      "journal_name": "Progress in Neuro-Psychopharmacology & Biological Psychiatry",
+      "title": "Progress in Neuro-Psychopharmacology & Biological Psychiatry",
+      "impact_factor": 1.3
+    },
+    {
+      "rank": 17,
+      "journal_name": "Current Opinion in Neurology",
+      "title": "Current Opinion in Neurology",
+      "impact_factor": 1.3
+    },
+    {
+      "rank": 18,
+      "journal_name": "Neuro-Oncology",
+      "title": "Neuro-Oncology",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 19,
+      "journal_name": "Brain",
+      "title": "Brain",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 20,
+      "journal_name": "Acta Neuropathologica",
+      "title": "Acta Neuropathologica",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 21,
+      "journal_name": "Journal of Neurology Neurosurgery and Psychiatry",
+      "title": "Journal of Neurology Neurosurgery and Psychiatry",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 22,
+      "journal_name": "JPAD-Journal of Prevention of Alzheimers Disease",
+      "title": "JPAD-Journal of Prevention of Alzheimers Disease",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 23,
+      "journal_name": "Annals of Neurology",
+      "title": "Annals of Neurology",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 24,
+      "journal_name": "Alzheimers Research & Therapy",
+      "title": "Alzheimers Research & Therapy",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 25,
+      "journal_name": "Neurology-Neuroimmunology & Neuroinflammation",
+      "title": "Neurology-Neuroimmunology & Neuroinflammation",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 26,
+      "journal_name": "Stroke",
+      "title": "Stroke",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 27,
+      "journal_name": "Neurology",
+      "title": "Neurology",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 28,
+      "journal_name": "Brain Stimulation",
+      "title": "Brain Stimulation",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 29,
+      "journal_name": "CNS Drugs",
+      "title": "CNS Drugs",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 30,
+      "journal_name": "Movement Disorders",
+      "title": "Movement Disorders",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 31,
+      "journal_name": "Epilepsia",
+      "title": "Epilepsia",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 32,
+      "journal_name": "Pain",
+      "title": "Pain",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 33,
+      "journal_name": "Brain Pathology",
+      "title": "Brain Pathology",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 34,
+      "journal_name": "Neurotherapeutics",
+      "title": "Neurotherapeutics",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 35,
+      "journal_name": "Headache",
+      "title": "Headache",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 36,
+      "journal_name": "Sleep",
+      "title": "Sleep",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 37,
+      "journal_name": "Journal of Affective Disorders",
+      "title": "Journal of Affective Disorders",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 38,
+      "journal_name": "Multiple Sclerosis Journal",
+      "title": "Multiple Sclerosis Journal",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 39,
+      "journal_name": "Annals of Clinical and Translational Neurology",
+      "title": "Annals of Clinical and Translational Neurology",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 40,
+      "journal_name": "Stroke and Vascular Neurology",
+      "title": "Stroke and Vascular Neurology",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 41,
+      "journal_name": "Journal of Neurodevelopmental Disorders",
+      "title": "Journal of Neurodevelopmental Disorders",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 42,
+      "journal_name": "Pain and Therapy",
+      "title": "Pain and Therapy",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 43,
+      "journal_name": "Journal of the Peripheral Nervous System",
+      "title": "Journal of the Peripheral Nervous System",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 44,
+      "journal_name": "Journal of Stroke",
+      "title": "Journal of Stroke",
+      "impact_factor": 0.6
+    },
+    {
+      "rank": 45,
+      "journal_name": "Cephalalgia",
+      "title": "Cephalalgia",
+      "impact_factor": 0.5
+    },
+    {
+      "rank": 46,
+      "journal_name": "Bipolar Disorders",
+      "title": "Bipolar Disorders",
+      "impact_factor": 0.5
+    },
+    {
+      "rank": 47,
+      "journal_name": "Psychiatry and Clinical Neurosciences",
+      "title": "Psychiatry and Clinical Neurosciences",
+      "impact_factor": 0.5
+    },
+    {
+      "rank": 48,
+      "journal_name": "Journal of Pain",
+      "title": "Journal of Pain",
+      "impact_factor": 0.4
+    },
+    {
+      "rank": 49,
+      "journal_name": "Neuropathology and Applied Neurobiology",
+      "title": "Neuropathology and Applied Neurobiology",
+      "impact_factor": 0.4
+    },
+    {
+      "rank": 50,
+      "journal_name": "Alzheimers & Dementia",
+      "title": "Alzheimers & Dementia",
+      "impact_factor": 0.13
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "specialty": "Dermatology",
+  "date": "2025-05",
+  "rankings": [
+    {
+      "rank": 1,
+      "journal_name": "Journal of the American Academy of Dermatology",
+      "title": "Journal of the American Academy of Dermatology",
+      "impact_factor": 12.8
+    },
+    {
+      "rank": 2,
+      "journal_name": "JAMA Dermatology",
+      "title": "JAMA Dermatology",
+      "impact_factor": 11.5
+    },
+    {
+      "rank": 3,
+      "journal_name": "British Journal of Dermatology",
+      "title": "British Journal of Dermatology",
+      "impact_factor": 9.0
+    },
+    {
+      "rank": 4,
+      "journal_name": "American Journal of Clinical Dermatology",
+      "title": "American Journal of Clinical Dermatology",
+      "impact_factor": 8.6
+    },
+    {
+      "rank": 5,
+      "journal_name": "Journal of the European Academy of Dermatology and Venereology",
+      "title": "Journal of the European Academy of Dermatology and Venereology",
+      "impact_factor": 8.4
+    },
+    {
+      "rank": 6,
+      "journal_name": "Advances in Wound Care",
+      "title": "Advances in Wound Care",
+      "impact_factor": 5.8
+    },
+    {
+      "rank": 7,
+      "journal_name": "Journal of Investigative Dermatology",
+      "title": "Journal of Investigative Dermatology",
+      "impact_factor": 5.7
+    },
+    {
+      "rank": 8,
+      "journal_name": "Journal der Deutschen Dermatologischen Gesellschaft",
+      "title": "Journal der Deutschen Dermatologischen Gesellschaft",
+      "impact_factor": 5.5
+    },
+    {
+      "rank": 9,
+      "journal_name": "Contact Dermatitis",
+      "title": "Contact Dermatitis",
+      "impact_factor": 4.8
+    },
+    {
+      "rank": 10,
+      "journal_name": "Mycoses",
+      "title": "Mycoses",
+      "impact_factor": 4.1
+    },
+    {
+      "rank": 11,
+      "journal_name": "Dermatitis",
+      "title": "Dermatitis",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 12,
+      "journal_name": "Pigment Cell & Melanoma Research",
+      "title": "Pigment Cell & Melanoma Research",
+      "impact_factor": 3.9
+    },
+    {
+      "rank": 13,
+      "journal_name": "Wound Repair and Regeneration",
+      "title": "Wound Repair and Regeneration",
+      "impact_factor": 3.8
+    },
+    {
+      "rank": 0,
+      "journal_name": "Journal of Dermatological Science",
+      "title": "Journal of Dermatological Science",
+      "impact_factor": 3.8
+    },
+    {
+      "rank": 15,
+      "journal_name": "Dermatologic Therapy",
+      "title": "Dermatologic Therapy",
+      "impact_factor": 3.7
+    },
+    {
+      "rank": 0,
+      "journal_name": "Clinical and Experimental Dermatology",
+      "title": "Clinical and Experimental Dermatology",
+      "impact_factor": 3.7
+    },
+    {
+      "rank": 17,
+      "journal_name": "Experimental Dermatology",
+      "title": "Experimental Dermatology",
+      "impact_factor": 3.5
+    },
+    {
+      "rank": 0,
+      "journal_name": "Acta Dermato-Venereologica",
+      "title": "Acta Dermato-Venereologica",
+      "impact_factor": 3.5
+    },
+    {
+      "rank": 0,
+      "journal_name": "Dermatology and Therapy",
+      "title": "Dermatology and Therapy",
+      "impact_factor": 3.5
+    },
+    {
+      "rank": 0,
+      "journal_name": "International Journal of Dermatology",
+      "title": "International Journal of Dermatology",
+      "impact_factor": 3.5
+    },
+    {
+      "rank": 21,
+      "journal_name": "Burns",
+      "title": "Burns",
+      "impact_factor": 3.2
+    },
+    {
+      "rank": 0,
+      "journal_name": "Indian Journal of Dermatology Venereology & Leprology",
+      "title": "Indian Journal of Dermatology Venereology & Leprology",
+      "impact_factor": 3.2
+    },
+    {
+      "rank": 23,
+      "journal_name": "Journal of Cutaneous Medicine and Surgery",
+      "title": "Journal of Cutaneous Medicine and Surgery",
+      "impact_factor": 3.1
+    },
+    {
+      "rank": 0,
+      "journal_name": "Annales de Dermatologie et de Venereologie",
+      "title": "Annales de Dermatologie et de Venereologie",
+      "impact_factor": 3.1
+    },
+    {
+      "rank": 25,
+      "journal_name": "Dermatology",
+      "title": "Dermatology",
+      "impact_factor": 3.0
+    },
+    {
+      "rank": 26,
+      "journal_name": "Journal of Dermatology",
+      "title": "Journal of Dermatology",
+      "impact_factor": 2.9
+    },
+    {
+      "rank": 0,
+      "journal_name": "Journal of Dermatological Treatment",
+      "title": "Journal of Dermatological Treatment",
+      "impact_factor": 2.9
+    },
+    {
+      "rank": 28,
+      "journal_name": "Skin Pharmacology and Physiology",
+      "title": "Skin Pharmacology and Physiology",
+      "impact_factor": 2.8
+    },
+    {
+      "rank": 29,
+      "journal_name": "International Journal of Cosmetic Science",
+      "title": "International Journal of Cosmetic Science",
+      "impact_factor": 2.7
+    },
+    {
+      "rank": 30,
+      "journal_name": "International Wound Journal",
+      "title": "International Wound Journal",
+      "impact_factor": 2.6
+    },
+    {
+      "rank": 0,
+      "journal_name": "Anais Brasileiros de Dermatologia",
+      "title": "Anais Brasileiros de Dermatologia",
+      "impact_factor": 2.6
+    },
+    {
+      "rank": 32,
+      "journal_name": "Dermatologic Surgery",
+      "title": "Dermatologic Surgery",
+      "impact_factor": 2.5
+    },
+    {
+      "rank": 0,
+      "journal_name": "Dermatology Practical & Conceptual",
+      "title": "Dermatology Practical & Conceptual",
+      "impact_factor": 2.5
+    },
+    {
+      "rank": 0,
+      "journal_name": "Photodermatology Photoimmunology & Photomedicine",
+      "title": "Photodermatology Photoimmunology & Photomedicine",
+      "impact_factor": 2.5
+    },
+    {
+      "rank": 35,
+      "journal_name": "Journal of Tissue Viability",
+      "title": "Journal of Tissue Viability",
+      "impact_factor": 2.4
+    },
+    {
+      "rank": 36,
+      "journal_name": "Journal of Cosmetic Dermatology",
+      "title": "Journal of Cosmetic Dermatology",
+      "impact_factor": 2.3
+    },
+    {
+      "rank": 0,
+      "journal_name": "Clinics in Dermatology",
+      "title": "Clinics in Dermatology",
+      "impact_factor": 2.3
+    },
+    {
+      "rank": 0,
+      "journal_name": "Dermatologica Sinica",
+      "title": "Dermatologica Sinica",
+      "impact_factor": 2.3
+    },
+    {
+      "rank": 39,
+      "journal_name": "Lasers in Surgery and Medicine",
+      "title": "Lasers in Surgery and Medicine",
+      "impact_factor": 2.2
+    },
+    {
+      "rank": 0,
+      "journal_name": "Australasian Journal of Dermatology",
+      "title": "Australasian Journal of Dermatology",
+      "impact_factor": 2.2
+    },
+    {
+      "rank": 0,
+      "journal_name": "Dermatologic Clinics",
+      "title": "Dermatologic Clinics",
+      "impact_factor": 2.2
+    },
+    {
+      "rank": 42,
+      "journal_name": "European Journal of Dermatology",
+      "title": "European Journal of Dermatology",
+      "impact_factor": 2.0
+    },
+    {
+      "rank": 0,
+      "journal_name": "Skin Research and Technology",
+      "title": "Skin Research and Technology",
+      "impact_factor": 2.0
+    },
+    {
+      "rank": 44,
+      "journal_name": "Veterinary Dermatology",
+      "title": "Veterinary Dermatology",
+      "impact_factor": 1.9
+    },
+    {
+      "rank": 0,
+      "journal_name": "Clinical Cosmetic and Investigational Dermatology",
+      "title": "Clinical Cosmetic and Investigational Dermatology",
+      "impact_factor": 1.9
+    },
+    {
+      "rank": 46,
+      "journal_name": "Archives of Dermatological Research",
+      "title": "Archives of Dermatological Research",
+      "impact_factor": 1.8
+    },
+    {
+      "rank": 47,
+      "journal_name": "Advances in Skin & Wound Care",
+      "title": "Advances in Skin & Wound Care",
+      "impact_factor": 1.7
+    },
+    {
+      "rank": 48,
+      "journal_name": "Journal of Cutaneous Pathology",
+      "title": "Journal of Cutaneous Pathology",
+      "impact_factor": 1.6
+    },
+    {
+      "rank": 49,
+      "journal_name": "International Journal of Lower Extremity Wounds",
+      "title": "International Journal of Lower Extremity Wounds",
+      "impact_factor": 1.5
+    },
+    {
+      "rank": 0,
+      "journal_name": "Annals of Dermatology",
+      "title": "Annals of Dermatology",
+      "impact_factor": 1.5
+    }
+  ],
+  "timestamp": "2025-05-18T16:02:40.900693"
+}

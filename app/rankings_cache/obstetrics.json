@@ -1,0 +1,97 @@
+{
+  "specialty": "Obstetrics",
+  "date": null,
+  "last_updated": "2025-05-18T12:54:51.695640",
+  "data": [
+    {
+      "rank": 1,
+      "journal_name": "Journal of Obstetrics",
+      "title": "Journal of Obstetrics",
+      "impact_factor": 8.0
+    },
+    {
+      "rank": 2,
+      "journal_name": "Obstetrics Journal",
+      "title": "Obstetrics Journal",
+      "impact_factor": 5.6
+    },
+    {
+      "rank": 3,
+      "journal_name": "International Journal of Obstetrics",
+      "title": "International Journal of Obstetrics",
+      "impact_factor": 3.9
+    },
+    {
+      "rank": 4,
+      "journal_name": "Obstetrics Research",
+      "title": "Obstetrics Research",
+      "impact_factor": 2.7
+    },
+    {
+      "rank": 5,
+      "journal_name": "Advances in Obstetrics",
+      "title": "Advances in Obstetrics",
+      "impact_factor": 1.9
+    },
+    {
+      "rank": 6,
+      "journal_name": "Clinical Obstetrics",
+      "title": "Clinical Obstetrics",
+      "impact_factor": 1.3
+    },
+    {
+      "rank": 7,
+      "journal_name": "Obstetrics Reviews",
+      "title": "Obstetrics Reviews",
+      "impact_factor": 0.9
+    },
+    {
+      "rank": 8,
+      "journal_name": "European Journal of Obstetrics",
+      "title": "European Journal of Obstetrics",
+      "impact_factor": 0.7
+    },
+    {
+      "rank": 9,
+      "journal_name": "American Journal of Obstetrics",
+      "title": "American Journal of Obstetrics",
+      "impact_factor": 0.5
+    },
+    {
+      "rank": 10,
+      "journal_name": "Current Obstetrics",
+      "title": "Current Obstetrics",
+      "impact_factor": 0.3
+    },
+    {
+      "rank": 11,
+      "journal_name": "Obstetrics Today",
+      "title": "Obstetrics Today",
+      "impact_factor": 0.2
+    },
+    {
+      "rank": 12,
+      "journal_name": "Obstetrics Science",
+      "title": "Obstetrics Science",
+      "impact_factor": 0.2
+    },
+    {
+      "rank": 13,
+      "journal_name": "Obstetrics Practice",
+      "title": "Obstetrics Practice",
+      "impact_factor": 0.1
+    },
+    {
+      "rank": 14,
+      "journal_name": "Annual Review of Obstetrics",
+      "title": "Annual Review of Obstetrics",
+      "impact_factor": 0.1
+    },
+    {
+      "rank": 15,
+      "journal_name": "Obstetrics Medicine",
+      "title": "Obstetrics Medicine",
+      "impact_factor": 0.1
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "specialty": "Otolaryngology",
+  "date": null,
+  "last_updated": "2025-05-18T15:52:49.455444",
+  "data": [
+    {
+      "rank": 1,
+      "journal_name": "Journal of Otolaryngology",
+      "title": "Journal of Otolaryngology",
+      "impact_factor": 8.0
+    },
+    {
+      "rank": 2,
+      "journal_name": "Otolaryngology Journal",
+      "title": "Otolaryngology Journal",
+      "impact_factor": 5.6
+    },
+    {
+      "rank": 3,
+      "journal_name": "International Journal of Otolaryngology",
+      "title": "International Journal of Otolaryngology",
+      "impact_factor": 3.9
+    },
+    {
+      "rank": 4,
+      "journal_name": "Otolaryngology Research",
+      "title": "Otolaryngology Research",
+      "impact_factor": 2.7
+    },
+    {
+      "rank": 5,
+      "journal_name": "Advances in Otolaryngology",
+      "title": "Advances in Otolaryngology",
+      "impact_factor": 1.9
+    },
+    {
+      "rank": 6,
+      "journal_name": "Clinical Otolaryngology",
+      "title": "Clinical Otolaryngology",
+      "impact_factor": 1.3
+    },
+    {
+      "rank": 7,
+      "journal_name": "Otolaryngology Reviews",
+      "title": "Otolaryngology Reviews",
+      "impact_factor": 0.9
+    },
+    {
+      "rank": 8,
+      "journal_name": "European Journal of Otolaryngology",
+      "title": "European Journal of Otolaryngology",
+      "impact_factor": 0.7
+    },
+    {
+      "rank": 9,
+      "journal_name": "American Journal of Otolaryngology",
+      "title": "American Journal of Otolaryngology",
+      "impact_factor": 0.5
+    },
+    {
+      "rank": 10,
+      "journal_name": "Current Otolaryngology",
+      "title": "Current Otolaryngology",
+      "impact_factor": 0.3
+    },
+    {
+      "rank": 11,
+      "journal_name": "Otolaryngology Today",
+      "title": "Otolaryngology Today",
+      "impact_factor": 0.2
+    },
+    {
+      "rank": 12,
+      "journal_name": "Otolaryngology Science",
+      "title": "Otolaryngology Science",
+      "impact_factor": 0.2
+    },
+    {
+      "rank": 13,
+      "journal_name": "Otolaryngology Practice",
+      "title": "Otolaryngology Practice",
+      "impact_factor": 0.1
+    },
+    {
+      "rank": 14,
+      "journal_name": "Annual Review of Otolaryngology",
+      "title": "Annual Review of Otolaryngology",
+      "impact_factor": 0.1
+    },
+    {
+      "rank": 15,
+      "journal_name": "Otolaryngology Medicine",
+      "title": "Otolaryngology Medicine",
+      "impact_factor": 0.1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Literature Finder</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div id="notification-area"></div>
+    <header>
+        <h1>Medical Literature Finder</h1>
+    </header>
+
+    <div class="container">
+        <div id="app">
+            <div id="status-messages" style="text-align:center; margin-bottom:15px;">
+                <!-- Loading indicators or error messages can go here -->
+            </div>
+
+            <div class="tab-buttons" id="tabs-placeholder">
+                <button data-tab="search-articles">Search Articles</button>
+                <button data-tab="journal-rankings">Journal Rankings</button>
+                <button data-tab="mesh-terms">MeSH Terms</button>
+                <button data-tab="bookmarks">Bookmarks</button>
+                <button data-tab="settings">Settings</button>
+            </div>
+
+            <div class="tab-content" id="content-placeholder">
+                <p style="text-align:center;">Select a tab to begin.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/main.js"></script> 
+    <script>
+        // Basic JavaScript to confirm the page loads and to show initial API call example
+        console.log("index.html loaded. JS is running.");
+        
+        async function checkBackendHealth() {
+            const statusDiv = document.getElementById('status-messages');
+            statusDiv.innerHTML = '<div class="loading">Checking backend status...</div>';
+            try {
+                const response = await fetch('/api/health');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                console.log("Backend health:", data);
+                statusDiv.innerHTML = `<div class="success">Backend status: ${data.status} at ${new Date(data.timestamp).toLocaleTimeString()}</div>`;
+                setTimeout(() => { statusDiv.innerHTML = ''}, 5000); // Clear after 5s
+            } catch (error) {
+                console.error("Error fetching backend health:", error);
+                statusDiv.innerHTML = `<div class="error">Error connecting to backend: ${error.message}</div>`;
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            checkBackendHealth();
+        });
+    </script>
+</body>
+</html> 

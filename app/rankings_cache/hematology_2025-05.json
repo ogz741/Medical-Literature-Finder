@@ -1,0 +1,307 @@
+{
+  "specialty": "Hematology",
+  "date": "2025-05",
+  "last_updated": "2025-05-18T16:44:30.102472",
+  "data": [
+    {
+      "rank": 1,
+      "journal_name": "Journal of Hematology & Oncology",
+      "title": "Journal of Hematology & Oncology",
+      "impact_factor": 29.5
+    },
+    {
+      "rank": 2,
+      "journal_name": "Blood",
+      "title": "Blood",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 3,
+      "journal_name": "Circulation Research",
+      "title": "Circulation Research",
+      "impact_factor": 16.5
+    },
+    {
+      "rank": 4,
+      "journal_name": "Lancet Haematology",
+      "title": "Lancet Haematology",
+      "impact_factor": 15.4
+    },
+    {
+      "rank": 5,
+      "journal_name": "Blood Cancer Journal",
+      "title": "Blood Cancer Journal",
+      "impact_factor": 12.9
+    },
+    {
+      "rank": 6,
+      "journal_name": "Leukemia",
+      "title": "Leukemia",
+      "impact_factor": 12.8
+    },
+    {
+      "rank": 7,
+      "journal_name": "American Journal of Hematology",
+      "title": "American Journal of Hematology",
+      "impact_factor": 10.1
+    },
+    {
+      "rank": 8,
+      "journal_name": "Experimental Hematology & Oncology",
+      "title": "Experimental Hematology & Oncology",
+      "impact_factor": 9.4
+    },
+    {
+      "rank": 9,
+      "journal_name": "Haematologica",
+      "title": "Haematologica",
+      "impact_factor": 8.2
+    },
+    {
+      "rank": 10,
+      "journal_name": "Hemasphere",
+      "title": "Hemasphere",
+      "impact_factor": 7.6
+    },
+    {
+      "rank": 11,
+      "journal_name": "Blood Advances",
+      "title": "Blood Advances",
+      "impact_factor": 7.4
+    },
+    {
+      "rank": 0,
+      "journal_name": "Arteriosclerosis Thrombosis and Vascular Biology",
+      "title": "Arteriosclerosis Thrombosis and Vascular Biology",
+      "impact_factor": 7.4
+    },
+    {
+      "rank": 13,
+      "journal_name": "Blood Reviews",
+      "title": "Blood Reviews",
+      "impact_factor": 6.9
+    },
+    {
+      "rank": 14,
+      "journal_name": "Journal of Thrombosis and Haemostasis",
+      "title": "Journal of Thrombosis and Haemostasis",
+      "impact_factor": 5.5
+    },
+    {
+      "rank": 0,
+      "journal_name": "Critical Reviews in Oncology Hematology",
+      "title": "Critical Reviews in Oncology Hematology",
+      "impact_factor": 5.5
+    },
+    {
+      "rank": 16,
+      "journal_name": "British Journal of Haematology",
+      "title": "British Journal of Haematology",
+      "impact_factor": 5.1
+    },
+    {
+      "rank": 17,
+      "journal_name": "Thrombosis and Haemostasis",
+      "title": "Thrombosis and Haemostasis",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 0,
+      "journal_name": "Seminars in Hematology",
+      "title": "Seminars in Hematology",
+      "impact_factor": 1.2
+    },
+    {
+      "rank": 19,
+      "journal_name": "Journal of Cerebral Blood Flow and Metabolism",
+      "title": "Journal of Cerebral Blood Flow and Metabolism",
+      "impact_factor": 4.9
+    },
+    {
+      "rank": 20,
+      "journal_name": "Bone Marrow Transplantation",
+      "title": "Bone Marrow Transplantation",
+      "impact_factor": 4.5
+    },
+    {
+      "rank": 21,
+      "journal_name": "Stem Cells",
+      "title": "Stem Cells",
+      "impact_factor": 38.6
+    },
+    {
+      "rank": 22,
+      "journal_name": "Cytotherapy",
+      "title": "Cytotherapy",
+      "impact_factor": 3.7
+    },
+    {
+      "rank": 0,
+      "journal_name": "Thrombosis Research",
+      "title": "Thrombosis Research",
+      "impact_factor": 3.7
+    },
+    {
+      "rank": 24,
+      "journal_name": "Journal of Leukocyte Biology",
+      "title": "Journal of Leukocyte Biology",
+      "impact_factor": 3.6
+    },
+    {
+      "rank": 0,
+      "journal_name": "Seminars in Thrombosis and Hemostasis",
+      "title": "Seminars in Thrombosis and Hemostasis",
+      "impact_factor": 3.6
+    },
+    {
+      "rank": 26,
+      "journal_name": "Research and Practice in Thrombosis and Haemostasis",
+      "title": "Research and Practice in Thrombosis and Haemostasis",
+      "impact_factor": 3.4
+    },
+    {
+      "rank": 0,
+      "journal_name": "Therapeutic Advances in Hematology",
+      "title": "Therapeutic Advances in Hematology",
+      "impact_factor": 3.4
+    },
+    {
+      "rank": 28,
+      "journal_name": "Hematological Oncology",
+      "title": "Hematological Oncology",
+      "impact_factor": 3.3
+    },
+    {
+      "rank": 29,
+      "journal_name": "Current Opinion in Hematology",
+      "title": "Current Opinion in Hematology",
+      "impact_factor": 3.1
+    },
+    {
+      "rank": 30,
+      "journal_name": "Haemophilia",
+      "title": "Haemophilia",
+      "impact_factor": 1.0
+    },
+    {
+      "rank": 0,
+      "journal_name": "Annals of Hematology",
+      "title": "Annals of Hematology",
+      "impact_factor": 1.2
+    },
+    {
+      "rank": 32,
+      "journal_name": "Hematology-American Society of Hematology Education Program",
+      "title": "Hematology-American Society of Hematology Education Program",
+      "impact_factor": 2.9
+    },
+    {
+      "rank": 33,
+      "journal_name": "Clinical Lymphoma Myeloma & Leukemia",
+      "title": "Clinical Lymphoma Myeloma & Leukemia",
+      "impact_factor": 2.7
+    },
+    {
+      "rank": 0,
+      "journal_name": "Transfusion Medicine Reviews",
+      "title": "Transfusion Medicine Reviews",
+      "impact_factor": 2.7
+    },
+    {
+      "rank": 0,
+      "journal_name": "Current Hematologic Malignancy Reports",
+      "title": "Current Hematologic Malignancy Reports",
+      "impact_factor": 2.7
+    },
+    {
+      "rank": 0,
+      "journal_name": "Shock",
+      "title": "Shock",
+      "impact_factor": 2.7
+    },
+    {
+      "rank": 0,
+      "journal_name": "Hamostaseologie",
+      "title": "Hamostaseologie",
+      "impact_factor": 2.7
+    },
+    {
+      "rank": 38,
+      "journal_name": "Thrombosis Journal",
+      "title": "Thrombosis Journal",
+      "impact_factor": 2.6
+    },
+    {
+      "rank": 39,
+      "journal_name": "Hematology-Oncology Clinics of North America",
+      "title": "Hematology-Oncology Clinics of North America",
+      "impact_factor": 2.5
+    },
+    {
+      "rank": 0,
+      "journal_name": "Platelets",
+      "title": "Platelets",
+      "impact_factor": 2.5
+    },
+    {
+      "rank": 0,
+      "journal_name": "Transfusion",
+      "title": "Transfusion",
+      "impact_factor": 2.5
+    },
+    {
+      "rank": 0,
+      "journal_name": "Stem Cells and Development",
+      "title": "Stem Cells and Development",
+      "impact_factor": 2.5
+    },
+    {
+      "rank": 0,
+      "journal_name": "Experimental Hematology",
+      "title": "Experimental Hematology",
+      "impact_factor": 2.5
+    },
+    {
+      "rank": 44,
+      "journal_name": "Pediatric Blood & Cancer",
+      "title": "Pediatric Blood & Cancer",
+      "impact_factor": 2.4
+    },
+    {
+      "rank": 45,
+      "journal_name": "Journal of Thrombosis and Thrombolysis",
+      "title": "Journal of Thrombosis and Thrombolysis",
+      "impact_factor": 2.3
+    },
+    {
+      "rank": 0,
+      "journal_name": "European Journal of Haematology",
+      "title": "European Journal of Haematology",
+      "impact_factor": 2.3
+    },
+    {
+      "rank": 0,
+      "journal_name": "Clinical and Applied Thrombosis-Hemostasis",
+      "title": "Clinical and Applied Thrombosis-Hemostasis",
+      "impact_factor": 2.3
+    },
+    {
+      "rank": 0,
+      "journal_name": "Expert Review of Hematology",
+      "title": "Expert Review of Hematology",
+      "impact_factor": 2.3
+    },
+    {
+      "rank": 49,
+      "journal_name": "Leukemia & Lymphoma",
+      "title": "Leukemia & Lymphoma",
+      "impact_factor": 2.2
+    },
+    {
+      "rank": 0,
+      "journal_name": "Blood Purification",
+      "title": "Blood Purification",
+      "impact_factor": 2.2
+    }
+  ]
+}
